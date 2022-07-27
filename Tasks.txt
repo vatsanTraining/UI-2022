@@ -78,3 +78,34 @@
                 width:100%;
             }
         }
+        ======================================
+        
+        function setHeading(message){
+
+
+    var element =
+     document.getElementById("heading");
+
+     element.innerHTML =message
+
+}
+
+function eventHandling(){
+
+    var btnElement =
+     document.getElementById("greet");
+
+     btnElement.addEventListener('click',function(){
+
+
+    setHeading('Welcome to Radio Taxi')
+
+        
+     })
+
+}
+setHeading('Radio Taxi Service')
+eventHandling();
+
+
+
