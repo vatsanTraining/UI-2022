@@ -63,3 +63,18 @@
             height: 60%;
             border: 2px solid brown;
         }
+==========================================
+
+        @media screen and (max-width:992px) {
+            
+            .image-item{
+                width:50%;
+            }
+        }
+
+        @media screen and (max-width:576px) {
+            
+            .image-item{
+                width:100%;
+            }
+        }
