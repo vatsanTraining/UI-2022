@@ -1,0 +1,53 @@
+{
+  "drivers": [
+    {
+      "id": 101,
+      "driverName": "ramesh",
+      "rating": 4.5
+    },
+    {
+      "id": 102,
+      "driverName": "rakesh",
+      "rating": 4.4
+    },
+    {
+      "id": 103,
+      "driverName": "suresh",
+      "rating": 4.6
+    },
+    {
+      "id": "104",
+      "driverName": "Magesh",
+      "rating": "4.2"
+    },
+    {
+      "id": "107",
+      "driverName": "Jagan",
+      "rating": "4.2"
+    },
+    {
+      "id": "100",
+      "driverName": "Jaya",
+      "rating": "45"
+    },
+    {
+      "driverId": "1010",
+      "driverName": "fsfds",
+      "mobileNumber": "239239",
+      "location": "chennai",
+      "dateOfBirth": "2002-10-10",
+      "rating": "4.5",
+      "id": "zEXhOXu"
+    },
+    {
+      "id": "899",
+      "driverName": "Sumit",
+      "rating": "4.5"
+    },
+    {
+      "id": "8998",
+      "driverName": "Sumit",
+      "rating": "4.5"
+    }
+  ]
+}
