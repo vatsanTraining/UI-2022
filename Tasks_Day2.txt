@@ -1,0 +1,79 @@
+       Task -1
+ 
+<button className='btn btn-info'>Like</button>
+<button className='btn btn-warning'>Love</button>
+
+
+Task-2 
+
+   const  handleEventOne = ()=>{
+          }
+    const  handleEventTwo = ()=>{
+         }
+
+Task - 3
+       
+      <ButtonPanel></ButtonPanel>
+
+Task -4
+
+
+export const ShowDrivers = ({list}) => {
+   
+    const transformToRow = (element,idx) =>{
+       return <tr key={idx}>
+            <td>{element.id}</td>
+            <td>{element.driverName.toUpperCase()}</td>
+            <td>{element.rating}</td>
+        </tr>
+    }
+  
+    return (
+    <div>
+        <h1>Driver Partner List</h1>
+        <table className='table table-bordered table-striped'>
+         <thead>
+            <tr>
+                <th>Driver Id</th>
+                <th>Driver Name</th>
+                <th>Rating</th>
+            </tr>
+         </thead>
+         <tbody>
+        {
+            list.map(transformToRow)
+        }
+        </tbody>
+        </table>
+    </div>
+  )
+}
+
+
+Task -5
+
+  <form onSubmit={submit}>
+
+            <div>
+                <label htmlFor="">Driver Id</label>
+                <input type="text" name="id" 
+                onChange={change} value={id || ''}/>
+            </div>
+
+            <div>
+                <label htmlFor="">Driver Name</label>
+                <input type="text" name="driverName" 
+                onChange={change} value={driverName || ''}/>
+            </div>
+
+            <div>
+                <label htmlFor="">Rating</label>
+                <input type="text" name="rating" 
+                onChange={change} value={rating || ''}/>
+            </div>
+
+            <div>
+                <input type="submit" className='btn btn-info' value='submit'/>
+                </div>
+        </form>
+
