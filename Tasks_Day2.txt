@@ -1,4 +1,39 @@
-       Task -1
+  import React, { Component } from 'react'
+
+export default class Content extends Component {
+
+    
+    constructor(props){
+
+         super(props)
+         // inital state
+         this.state={
+            count:1
+         }
+    }
+
+    handleClick = () =>{
+//mutating with setState
+        this.setState({count:this.state.count+1})
+    }
+
+
+  render() {
+    return (
+      <div>
+        <p>Like :{this.state.count}</p>
+        {/* //event to trigger set state */}
+    <p><button onClick={this.handleClick} className='btn btn-info'>Like</button></p>
+      </div>
+    )
+  }
+}
+
+  
+  
+  =========================================
+  
+  Task -1
  
 <button className='btn btn-info'>Like</button>
 <button className='btn btn-warning'>Love</button>
